@@ -13,8 +13,15 @@ import c9 from '../../../public/clients/c9.jpg';
 import c10 from '../../../public/clients/c10.jpg';
 import c11 from '../../../public/clients/c10.jpg';
 import c12 from '../../../public/clients/c12.jpg';
-import c13 from '../../../public/clients/c12.jpg';
-import c14 from '../../../public/clients/c12.jpg';
+import c13 from '../../../public/clients/c13.jpg';
+import c14 from '../../../public/clients/c14.jpg';
+import c15 from '../../../public/clients/c15.jpg';
+import c16 from '../../../public/clients/c16.jpg';
+import c17 from '../../../public/clients/c17.jpg';
+import c18 from '../../../public/clients/c18.jpg';
+import c19 from '../../../public/clients/c19.png';
+import c20 from '../../../public/clients/c20.jpg';
+import c21 from '../../../public/clients/c21.jpg';
 import { MdArrowBack, MdArrowForward } from 'react-icons/md';
 
 const ImageAccordion = () => {
@@ -34,6 +41,14 @@ const ImageAccordion = () => {
     { src: c12, alt: 'Client 12' },
     { src: c13, alt: 'Client 13' },
     { src: c14, alt: 'Client 14' },
+    { src: c15, alt: 'Client 14' },
+    { src: c16, alt: 'Client 14' },
+    { src: c17, alt: 'Client 14' },
+    { src: c18, alt: 'Client 14' },
+    { src: c19, alt: 'Client 14' },
+    { src: c20, alt: 'Client 14' },
+    { src: c21, alt: 'Client 14' },
+    
   ];
   useEffect(()=>{
     const interval=setInterval(()=>{
